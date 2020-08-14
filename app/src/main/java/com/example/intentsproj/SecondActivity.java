@@ -102,6 +102,12 @@ public class SecondActivity extends AppCompatActivity {
             }
         });
 
+
+        //Disable the Editable Option
+        EditText edittext = (EditText)findViewById(R.id.editText);
+        edittext.setEnabled(false);
+        EditText edittextt = (EditText)findViewById(R.id.editText3);
+        edittextt.setEnabled(false);
     }
 
 
